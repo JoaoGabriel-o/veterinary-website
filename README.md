@@ -94,4 +94,4 @@ A **MartinsVet é uma marca fictícia**, utilizada exclusivamente como contexto 
 
 ---
 
-### 🌱 Aprender. Praticar. Construir.
+### 🌱 Um projeto simples, feito para colocar em prática o que estou aprendendo na disciplina de Desenvolvimento Web.
