@@ -26,3 +26,4 @@ servicos[0].addEventListener("click", function(){
 servico[1].addEventListener("click", function(){
     alert("Clicou no segundo servico");
 });
+
