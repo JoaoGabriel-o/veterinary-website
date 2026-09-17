@@ -1,20 +1,28 @@
 let botaoWhats = document.querySelector(".chat-toggle");
 
 let servicos = document.querySelectorAll(".servico");
-console.log("Lista de serviços:", servicos);
-console.log("Primeiro serviços:", servicos[0]);
-console.log("Segundo serviços:", servicos[1]);
+console.log("Lista de servicos:", servicos);
+console.log("Primeiro:", servicos[0]);
+console.log("Segundo:", servicos[1]);
 
-function mostrarMensagem() {
-    alert("Você ciclou em um serviço!");
+function mostrarMensagem(){
+    alert("Você clicou em um serviço!");
 }
 
 let primeiroServico = document.querySelector(".servico");
 primeiroServico.addEventListener("click", mostrarMensagem);
 
-function abrirWhats(e) {
+
+botaoWhats.addEventListener("click", function abrirWhats(e) {
     e.preventDefault();
     alert("Você será redirecionado para o WhatsApp!");
-    window.open("Https://wa.me/5586999327053", "_blank")
-}
-botaoWhats.addEventListener("click", abrirWhats);
+    window.open("https://wa.me/5511999999999", "blank");
+});
+
+servicos[0].addEventListener("click", function(){
+    alert("licou no primeiro servico");
+});
+
+servico[1].addEventListener("click", function(){
+    alert("Clicou no segundo servico");
+});
