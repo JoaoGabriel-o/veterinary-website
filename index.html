@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MartinsVet - Pet Shop & Clínica Veterinária</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -109,5 +110,35 @@
     <footer>
         <p>&copy; 2026 MartinsVet - Pet Shop & Clínica Veterinária</p>
     </footer>
+
+    <!-- CHATBOT-->
+
+    <!-- Botão do chatboot -->
+    <button id="chat-toggle" class="chat-toggle">🤖</button>
+
+    <!-- Caixa de diálogos do chatboot -->
+    <div id="chat" class="chat-widget hidden">
+
+        <!-- Cabeçalho da caixa de diálogo -->
+        <div class="chat-header">
+            <p>Atendimento</p>
+            <button id="fechar">X</button>
+        </div>
+
+        <!-- Balões de conversas -->
+        <div id="chat-box" class="chat-box">
+            <div class="bot">Olá! 👋 Bem-vindo à MartinsVet. Como posso ajudar?</div>
+        </div>
+
+        <!-- Caixa de digitação do usuário -->
+        <div class="chat-input-area">
+            <input
+                type="text"
+                id="input"
+                placeholder="Digite sua mensagem...">
+            <!-- Botão de enviar -->
+            <button id="enviar">Enviar</button>
+        </div>
+    </div>
 </body>
 </html>
